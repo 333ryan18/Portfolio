@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.profile {
+  display: flex;
+  position: fixed;
+  width: 30vw;
+  height: 100%;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  text-align: center;
+}
+.img {
+  background-image: url("../img/headshot.jpg");
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-position: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main {
+  width: 70vw;
+  max-width: 90vw;
+  padding: 20px;
+  margin-left: 40vw;
+  margin-right: 20vw;
+}
+.main a {
+  text-decoration-style: dotted;
+  color: black;
+}
+
+.section {
+  border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+.socials svg {
+  padding: 10px;
+}
+
+.fill-white {
+  fill: white;
+}
+
+.nav {
+  list-style: none;
+}
+.nav p a {
+  text-decoration: none;
+  color: white;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.social-icons {
+  flex-grow: 1;
+  margin: 0;
+}
+#social {
+  padding-top: 100px;
+}
+
+#scroll {
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    display: block;
+  }
+  .profile {
+    position: static;
+    width: 100vw;
+    height: 100vh;
+  }
+  .main {
+    width: 100vw;
+    margin-left: 0;
+    overflow: auto;
+  }
+  .nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  #scroll {
+    display: none;
+  }
+}
+
+/* Contact Form */
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.15rem;
+}
+
+textarea,
+input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+button {
+  width: 100%;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  color: white;
+}
