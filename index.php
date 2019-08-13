@@ -14,6 +14,16 @@
     <link rel="stylesheet" href="css/normailize.css" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Ryan Rukab - Portfolio</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145644627-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-145644627-1');
+    </script>
   </head>
 
   <body id="app">
