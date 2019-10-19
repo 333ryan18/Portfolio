@@ -101,7 +101,7 @@
           <p>
             Early on in my career I enjoyed
             <b>front-end development</b> exclusively. However, as I moved into
-            my Junior and Senior years at the Univeristy of North Florida (UNF)
+            my Junior and Senior years at the University of North Florida (UNF)
             I learned to love <b>PHP Back End development</b> as well. One of my
             personal passions include home automation. Over the last 3 years my
             smart home has been controlled with a <b>Raspberry Pi</b> running
@@ -110,7 +110,7 @@
         </div>
         <div id="education" class="section">
           <h1>Education</h1>
-          <h2>Univeristy of North Florida</h2>
+          <h2>University of North Florida</h2>
           <h3>June 2015 - August 2019</h3>
           <p>
             I graduated on August 2nd, 2019 with a
